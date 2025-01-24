@@ -15,7 +15,7 @@ const ProjectData = [
     {
         id:"2",
         title:"Personal Portfolio Website",
-        desx:"A personal portfolio website showcasing skills, projects, and achievements, designed to highlight expertise and creativity while providing a platform for professional opportunities.",
+        desc:"A personal portfolio website showcasing skills, projects, and achievements, designed to highlight expertise and creativity while providing a platform for professional opportunities.",
         tech:"React, Routering, Google Sheets",
         image:portfolio_img,
         category:"Frontend"|| "All",
