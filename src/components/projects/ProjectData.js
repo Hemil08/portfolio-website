@@ -16,7 +16,7 @@ const ProjectData = [
         id:"2",
         title:"Personal Portfolio Website",
         desc:"A personal portfolio website showcasing skills, projects, and achievements, designed to highlight expertise and creativity while providing a platform for professional opportunities.",
-        tech:"React, Routering, Google Sheets",
+        tech:"React, Tailwind, Routering, Google Sheets",
         image:portfolio_img,
         category:"Frontend"|| "All",
         github_link:"https://github.com/Hemil08/portfolio-website",
