@@ -5,7 +5,7 @@ const Navbar = () => {
     <div className="bg-gray-700 text-white sticky top-0 ">
       <nav className="flex justify-center space-x-8 py-6 ">
         <a
-          href="#home"
+          href="#Home"
           className="text-lg hover:text-blue-400 transition duration-300 tracking-wide"
         >
           Home

@@ -11,7 +11,7 @@ const Project = () => {
     })
 
   return (
-    <div className='h-auto bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] pb-[80px]'>
+    <div className='h-auto bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] pb-[80px]' id="Project">
         <div className="flex justify-center">
         <h1 className="text-4xl font-bold mb-4 text-center ">Project Section</h1>
       </div>

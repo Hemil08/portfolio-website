@@ -2,7 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <div className='className="h-auto bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] pb-[80px]'>
+    <div className='className="h-auto bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] pb-[80px]' id="Experience">
       <div className="flex justify-center">
         <h1 className="text-4xl font-bold mb-1 text-center ">
           Work Experience

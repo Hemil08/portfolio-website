@@ -3,7 +3,7 @@ import about_image from "../assets/about_image.webp";
 
 const About = () => {
   return (
-    <div className="h-[120vh] bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] ">
+    <div className="h-[120vh] bg-gray-900 flex-col w-full text-white scroll-behavior:smooth pt-[80px] " id="About">
       <div className="flex justify-center">
         <h1 className="text-4xl font-bold mb-4 text-center ">About Me</h1>
       </div>

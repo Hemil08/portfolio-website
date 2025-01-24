@@ -5,7 +5,7 @@ import { faDownload } from '@fortawesome/free-solid-svg-icons';
 
 const Home = () => {
   return (
-    <div className="h-screen bg-gray-900 flex justify-around w-fullscroll-behavior: smooth">
+    <div className="h-screen bg-gray-900 flex justify-around w-fullscroll-behavior: smooth" id="Home">
       {/* Left Side - Details */}
       <div className="flex flex-col justify-center items-start p-8 text-white">
         <h1 className="text-4xl font-bold mb-4">Hi, I'm Hemil Sorathiya.</h1>

@@ -49,7 +49,7 @@ const Contact = () => {
     }
 
   return (
-    <div className="h-[100vh] bg-gray-800 flex-col w-full text-white scroll-behavior:smooth pt-[80px]">
+    <div className="h-[100vh] bg-gray-800 flex-col w-full text-white scroll-behavior:smooth pt-[80px]" id="Contact">
       <div className="flex justify-center">
         <h1 className="text-4xl font-bold mb-4 text-center ">Contact Me</h1>
       </div>

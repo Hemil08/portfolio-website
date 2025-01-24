@@ -11,7 +11,7 @@ const Skills = () => {
     })
 
   return (
-    <div className="h-auto bg-gray-800 flex-col w-full text-white scroll-behavior: smooth pt-[80px] pb-[80px]">
+    <div className="h-auto bg-gray-800 flex-col w-full text-white scroll-behavior: smooth pt-[80px] pb-[80px]" id="Skills">
       <div className="flex justify-center">
         <h1 className="text-4xl font-bold mb-4 text-center ">
           My Technical skills
