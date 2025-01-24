@@ -1,4 +1,5 @@
 import typing_img from "../../assets/typing speed.png"
+import portfolio_img from "../../assets/portfolio.png"
 
 const ProjectData = [
     {
@@ -10,6 +11,16 @@ const ProjectData = [
         category: "Frontend" || "All",
         github_link:"https://github.com/Hemil08/Typing-Speed-Tester-APP",
         demo_link:"https://typing-speed-tester-1qdx5da60-hemils-projects-1b8396ff.vercel.app/"
+    },
+    {
+        id:"2",
+        title:"Personal Portfolio Website",
+        desx:"A personal portfolio website showcasing skills, projects, and achievements, designed to highlight expertise and creativity while providing a platform for professional opportunities.",
+        tech:"React, Routering, Google Sheets",
+        image:portfolio_img,
+        category:"Frontend"|| "All",
+        github_link:"https://github.com/Hemil08/portfolio-website",
+        demo_link:"https://hemil-portfolio.vercel.app/",
     }
 ]
 
