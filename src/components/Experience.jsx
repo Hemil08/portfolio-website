@@ -64,7 +64,7 @@ const Experience = () => {
                 The Magic Dev
               </span>
               <span className="mt-1 block text-sm font-semibold text-blue-500 tracking-wider">
-                Oct 2024 - March 2025
+                March 2022 - Dec 2022
               </span>
               <p className="mt-2 max-w-screen-sm text-sm text-gray-200 tracking-wider">
                 - TechStacks :- HTML, CSS, Javascript, Bootstrap, C++, Data Structures and Algorithms

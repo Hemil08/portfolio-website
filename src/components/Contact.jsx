@@ -32,7 +32,7 @@ const Contact = () => {
                 'https://script.google.com/macros/s/AKfycbwYGxFldVxXu86DL7OvQoLuJN-sR7uXOlBQY4ytrm4TZ-YwF9JKas_YAKZvJipuFR_A/exec',
                 {
                     method: 'POST',
-                    body: formDatab
+                    body: formDatab,
                 }
             );
 
@@ -68,6 +68,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:mr-2 outline-none focus:ring-2 focus:ring-blue-600"
                     placeholder="Name"
+                    required
                   />
                   <input
                     id="email"
@@ -77,6 +78,7 @@ const Contact = () => {
                     onChange={handleChange}
                     className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full md:w-1/2 md:ml-2 outline-none focus:ring-2 focus:ring-blue-600"
                     placeholder="Email"
+                    required
                   />
                 </div>
                 <input
@@ -87,6 +89,7 @@ const Contact = () => {
                   value={formData.subject}
                   onChange={handleChange}
                   className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600"
+                  required
                 />
                 <textarea
                   id="message"
@@ -96,11 +99,12 @@ const Contact = () => {
                   value={formData.message}
                   onChange={handleChange}
                   className="my-2 py-2 px-4 rounded-md bg-gray-900 text-gray-300 w-full outline-none focus:ring-2 focus:ring-blue-600 resize-none"
+                  required
                 ></textarea>
               </div>
 
                 {formSubmitted && (
-                    <div className="text-sm font-bold text-red-900 text-center mt-4">
+                    <div className="text-sm font-bold text-green-900 text-center mt-4">
                         Message Sent successfully. I look forward to meeting you!
                     </div>
                 )}
