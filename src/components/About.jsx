@@ -13,7 +13,7 @@ const About = () => {
           <img src={about_image} alt="" className="object-cover w-[370px] h-[400px]"/>
         </div>
         <div className="flex flex-col justify-center items-center w-1/2">
-          <p className="mt-5 mr-14 text-lg">I am a passionate and dedicated <strong>Frontend-Focued</strong> Full Stack Developer with hands-on experience in building dynamic and responsive applications. I have <strong>Internship</strong> experience working with <strong>React JS</strong> and <strong>Django</strong>, allowing me to develop a strong foundation in both Frontend and Backend technologies.</p>
+          <p className="mt-5 mr-14 text-lg">I am a passionate and dedicated <strong>Frontend-Focused</strong> Full Stack Developer with hands-on experience in building dynamic and responsive applications. I have <strong>Internship</strong> experience working with <strong>React JS</strong> and <strong>Django</strong>, allowing me to develop a strong foundation in both Frontend and Backend technologies.</p>
 
           <p className="mt-5 mr-14 text-lg">With around a year of experience in <strong>Frontend Development</strong>, I excel in crafting intuitive user interfaces and ensuring seamless user experiences. I am enthusiastic about learning new tools and technologies, solving challenging problems, and contributing to impactful projects.</p>
 

@@ -6,8 +6,7 @@ const Contact = () => {
     const [formSubmitted,setFormSubmitted] = useState(false);
 
     const handleChange = (e) =>{
-        const {name,value} = e.target;
-        setFormData({...formData,[name]:value});
+        setFormData({...formData,[e.target.value]:e.target.value});
     }
 
     const handleSubmit = async (e) =>{
@@ -29,9 +28,10 @@ const Contact = () => {
             }
 
             const response = await fetch(
-                'https://script.google.com/macros/s/AKfycbwYGxFldVxXu86DL7OvQoLuJN-sR7uXOlBQY4ytrm4TZ-YwF9JKas_YAKZvJipuFR_A/exec',
+                'https://script.google.com/macros/s/AKfycbwFcH6lS0tKaslGNOLY5nrHmZQh0dVx1VsGSIk1Tm1WATfEKI1bzAjtoNMJskbG-SfYaQ/exec',
                 {
                     method: 'POST',
+                    mode: 'no-cors',
                     body: formDatab,
                 }
             );
