@@ -2,7 +2,7 @@ import React from "react";
 
 const ProjectCard = ({ item }) => {
   return (
-    <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm mx-auto text-white hover:bg-transparent border-2 border-gray-500 transition-all duration-300">
+    <div className="bg-gray-800 rounded-lg shadow-lg p-6 max-w-sm mx-auto text-white hover:bg-transparent border-2 border-gray-500 transition-all duration-300 flex flex-col justify-between">
       {/* image part */}
       <div className="overflow-hidden mb-4">
         
@@ -25,10 +25,17 @@ const ProjectCard = ({ item }) => {
         className="px-4 py-2 bg-blue-600 transparent hover:bg-blue-700 text-white rounded-lg shadow transition duration-200">
         Github
         </a>
-        <a href={item.demo_link} target="_blank" rel="noopener noreferrer"
-        className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition duration-200">
-        Live Demo
-        </a>
+
+        {
+          item.demo_link === "" ?
+          "" : 
+          <a href={item.demo_link} target="_blank" rel="noopener noreferrer"
+          className="px-4 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg shadow transition duration-200">
+          Live Demo
+          </a>
+        }
+
+        
       </div>
     </div>
   );
