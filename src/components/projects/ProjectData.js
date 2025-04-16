@@ -4,8 +4,10 @@ import bbc_img from "../../assets/bbc-clone.png"
 import event from "../../assets/event.png"
 import expense from "../../assets/expense.png"
 import marco from "../../assets/marco.png"
+import todo from "../../assets/todo.jpg"
 
 const ProjectData = [
+
     {
         id:"1",
         title: "Typing Speed Tester App",
@@ -18,6 +20,16 @@ const ProjectData = [
     },
     {
         id:"2",
+        title: "Task Manager App",
+        desc:"A full-stack Task Manager app built with Django and React, featuring JWT authentication and real-time task management for individual users.",
+        tech:"React, Django, BootStrap, JWT Authentication, CRUD",
+        image:todo,
+        category: "FullStack" || "All",
+        github_link:"https://github.com/Hemil08/Task-Manager-App",
+        demo_link:""
+    },
+    {
+        id:"3",
         title:"BBC News Clone App",
         desc:"A modern, responsive BBC News clone built with React, Tailwind CSS, and Firebase, featuring news browsing, search, commenting, and user authentication.",
         tech:"React.js, Tailwind, Routering,Firebase Authentication",
@@ -27,7 +39,7 @@ const ProjectData = [
         demo_link:"https://bbcnewscloneapp.vercel.app/",
     },
     {
-        id:"3",
+        id:"4",
         title:"Personal Portfolio Website",
         desc:"A personal portfolio website showcasing skills, projects, and achievements, designed to highlight expertise and creativity while providing a platform for professional opportunities.",
         tech:"React, Tailwind, Routering, Google Sheets",
@@ -37,7 +49,7 @@ const ProjectData = [
         demo_link:"https://hemil-portfolio.vercel.app/",
     },
     {
-        id:"4",
+        id:"5",
         title:"Event Management System",
         desc:"A Django-powered Event Management System with user roles, event registration, and real-time email and in-app notifications.",
         tech:"Django, Python, Jinja Template, Authentication",
@@ -47,7 +59,7 @@ const ProjectData = [
         demo_link:"",
     },
     {
-        id:"5",
+        id:"6",
         title:"Expense Tracker App",
         desc:"A Django-based recursive category and subcategory system with nested display and Django admin integration for hierarchical data management.",
         tech:"Django, Python, Jinja Template, Authentication",
@@ -57,7 +69,7 @@ const ProjectData = [
         demo_link:"",
     },
     {
-        id:"6",
+        id:"7",
         title:"Todo App",
         desc:"A collaborative Django To-Do app with task management, team invitations, subtasks, comments, and real-time progress tracking.",
         tech:"Django, Python, Jinja Template, Authentication",
@@ -67,7 +79,7 @@ const ProjectData = [
         demo_link:"",
     },
     {
-        id:"7",
+        id:"8",
         title:"Marco Restaurant Website",
         desc:"A fully responsive clone of the Marco website, built with modern web technologies featuring smooth animations, reusable components, and SEO-friendly design.",
         tech:"React,Tailwind",
